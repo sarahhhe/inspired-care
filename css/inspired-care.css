@@ -1,0 +1,225 @@
+/* Set the font family for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Set the font family for body text */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #073b4c;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Set font sizes for headings */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* Set font size for body text */
+p {
+  font-size: 1rem;
+}
+
+/* Set font weight for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-family: 'Poppins Medium', sans-serif;
+}
+
+#navbarNav {
+  color: black;
+}
+/* Add outline border to accordion headers */
+.card-header {
+  border: 1px solid #ddd;
+}
+
+/* Remove default box shadow from accordion */
+.card-header:not(.collapsed) {
+  box-shadow: none;
+}
+/* Set text color to black */
+.card-header h3 {
+  color: black;
+}
+
+/* Set link color to black */
+.card-header a {
+  color: black;
+}
+
+.btn-primary {
+  background-color:#128bb2 !important;
+  border-color: #128bb2 !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color:#128bb2;
+  color: light grey;
+}
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card-body {
+  color: #073b4c;
+  height: 300px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid #59c4cb;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0px 5px 10px rgba(236, 72, 111, 0.5); /* Add a shadow effect */
+}
+
+.btn-animated {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-animated:hover {
+  transform: scale(1.05);
+}
+
+.btn-animated:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  border-radius: 0.25rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.btn-animated:hover:before {
+  opacity: 1;
+}
+
+form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.arrow-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.arrow-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.arrow-list li:before {
+  content: "\2192";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 12px;
+  color: #999;
+}
+.navbar-nav li a {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+.form-group label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+label[for="consent"] {
+  font-family: 'Poppins', sans-serif;
+}
+label[for="newsletter"] {
+  font-family: 'Poppins', sans-serif;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url('fonts/poppins-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+.img-fluid {
+  max-width: 100%;
+  max-height: auto;
+}
+.main-container {
+  width: 80%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+footer a {
+  color: #fff;
+}
+.policy-link {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  color: #fff;
+}
+
+.policy-link:hover {
+  border-bottom-color: #fff;
+}
+.footer-font p {
+  font-size: 14px;
+}
+.text-muted {
+  font-size: 16px;
+}
+
