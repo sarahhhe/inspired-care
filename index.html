@@ -57,7 +57,7 @@
             <a class="nav-link" href="faq.html">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-primary" href="#footer">Contact Us</a>
+            <a class="nav-link btn btn-primary" href="#contact-form">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -130,9 +130,9 @@
       <p style="padding-top:20px; text-align: center; font-size: 24px; line-height: 32px; color: #0f4152">To enquire about any of the above services, fill out the form below and we will get in touch.</p>
         <!-- Form -->
         <div class="container" style="padding-top: 20px; max-width: 2000px;">
-          <div class="row">
+          <div id="contact-form" class="row">
             <div class="col-md-6 offset-md-3">
-              <form action="contact" method="POST" data-netlify="true">
+              <form id="contact" action="contact" method="POST" data-netlify="true">
                 <div class="form-group">
                   <label for="name">Name</label>
                   <input type="text" class="form-control" id="name" name="name" required>
