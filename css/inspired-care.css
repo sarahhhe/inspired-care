@@ -7,12 +7,15 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Poppins', sans-serif;
   color: #073b4c;
+  transform: scale(0.99);
 }
 
 p {
   font-family: 'Poppins', sans-serif;
 }
-
+p.light {
+  font-family: 'Poppins Light', sans-serif;
+}
 /* Set font sizes for headings */
 h1 {
   font-size: 2.5rem;
@@ -191,6 +194,12 @@ label[for="newsletter"] {
   font-family: 'Poppins Medium';
   src: url('fonts/poppins-medium.ttf') format('truetype');
   font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins Light';
+  src: url('fonts/Poppins/Poppins-Light.ttf');
+  font-weight: 300;
   font-style: normal;
 }
 .img-fluid {
