@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Poppins', sans-serif;
   color: #073b4c;
-  transform: scale(0.99);
+  transform: scale(1.0);
 }
 @media (max-width: 767.98px) {
   .body {
