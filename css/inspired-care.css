@@ -16,7 +16,7 @@ body {
 @media (max-width: 480px) {
   html {
     font-size: 14px; /* Adjust the base font size as needed */
-    transform: scale(1.1);
+    transform: scale(0.9);
 
   }
 }
