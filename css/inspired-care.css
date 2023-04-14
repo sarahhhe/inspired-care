@@ -9,7 +9,9 @@ body {
   color: #073b4c;
   transform: scale(0.99);
 }
-
+a {
+  font-family: 'Poppins', sans-serif;
+}
 p {
   font-family: 'Poppins', sans-serif;
 }
