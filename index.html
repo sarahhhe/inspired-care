@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.87">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inspired Care</title>
     <!-- Load local styling -->
@@ -19,9 +19,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
       .container-fluid {
-        transform: scale(0.98);
+        transform: scale(0.95);
       }
-
+      .container {
+        transform: scale(0.95);
+      }
     </style>
   </head>
   <body>
@@ -106,7 +108,7 @@
       <div class="container-fluid">
         <div class="row justify-content-center" >
           <div class="col-12 col-md-6 col-sm-4">
-            <img  src="media/shutterstock_645695308.jpg" alt="Our Care Home" class="img-fluid float-md-right mt-md-5 mr-md-5" >
+            <img src="media/shutterstock_645695308.jpg" alt="Our Care Home" class="img-fluid float-md-right mt-md-5 mr-md-5" style="max-width: 89%; width: auto;">
           </div>
           <div class="col-12 col-md-4" style="padding-top: 3rem;">
             <h1 style="font-size: 2.3rem;" class="display-4"><span style="color: #128bb2">Our</span><span style="color: #0f4152"> commitment</span></h1>
@@ -124,7 +126,7 @@
       </div>
       <p style="padding-top:1rem; text-align: center; font-size: 1.1rem; line-height: 1.1rem; color: #0f4152">To enquire about any of the above services, fill out the form below and we will get in touch.</p>
         <!-- Form -->
-        <div class="container" style="padding-top: 1.25rem; max-width: 125rem;">
+        <div class="container-fluid" style="padding-top: 1.25rem; max-width: 125rem;">
           <div id="contact-form" class="row">
             <div class="col-md-6 offset-md-3">
               <form id="contact" action="contact" method="POST" data-netlify="true">
