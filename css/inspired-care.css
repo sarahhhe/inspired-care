@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
 #navbarNav {
-  color: black;
+  color: #073b4c;
 }
 .navbar-nav li a {
   font-size: 18px;
@@ -87,12 +87,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Set text color to black */
 .card-header h3 {
-  color: black;
+  color: #073b4c;
 }
 
 /* Set link color to black */
 .card-header a {
-  color: black;
+  color: #073b4c;
 }
 
 .btn-primary {
@@ -157,6 +157,10 @@ form {
   padding: 20px;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
+}
+.form-outline {
+  border: 0.5px solid #ccc;
+  padding: 1rem;
 }
 
 label {
