@@ -20,7 +20,9 @@ body {
 
   }
 }
-
+footer {
+  background-color: #073b4c;
+}
 a {
   font-family: 'Poppins', sans-serif;
 }
