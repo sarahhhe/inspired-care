@@ -74,15 +74,32 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-.navbar-brand {
-  font-family: 'Poppins', sans-serif;
+.site-nav-logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
 }
-#navbarNav {
-  color: #073b4c;
+
+.site-nav-wordmark {
+  color: #0f4152;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
-.navbar-nav li a {
-  font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+
+.site-nav-wordmark > span {
+  color: #128bb2;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0f4152;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #0f4152;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
 }
 
 .cqc-rating {
