@@ -99,11 +99,6 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
 }
 
-.cqc-rating-header {
-  margin: 0.75rem auto 1rem;
-  width: calc(100% - 2rem);
-}
-
 /* Add outline border to accordion headers */
 .card-header {
   border: 1px solid #ddd;
