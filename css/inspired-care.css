@@ -84,6 +84,26 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
 }
+
+.cqc-rating {
+  max-width: 26rem;
+  padding: 0.75rem;
+  border: 1px solid #c7dce6;
+  border-radius: 0.75rem;
+  background-color: #fff;
+  box-shadow: 0 0.25rem 0.75rem rgba(7, 59, 76, 0.08);
+}
+
+.cqc-rating iframe {
+  display: block;
+  max-width: 100%;
+}
+
+.cqc-rating-header {
+  margin: 0.75rem auto 1rem;
+  width: calc(100% - 2rem);
+}
+
 /* Add outline border to accordion headers */
 .card-header {
   border: 1px solid #ddd;
@@ -239,15 +259,6 @@ label[for="newsletter"] {
 }
 footer a {
   color: #fff;
-}
-.policy-link {
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  color: #fff;
-}
-
-.policy-link:hover {
-  border-bottom-color: #fff;
 }
 .footer-font p {
   font-size: 14px;
